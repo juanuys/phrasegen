@@ -1,0 +1,39 @@
+{
+  "name": "scamper",
+  "version": "0.0.1",
+  "description": "Randomise SCAMPER in your browser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "dist": "parcel build index.html -d docs --public-url ./",
+    "build": "parcel build index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanuys/scamper.git"
+  },
+  "keywords": [
+    "scamper",
+    "creativity"
+  ],
+  "author": "Juan Uys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanuys/scamper/issues"
+  },
+  "homepage": "https://github.com/juanuys/scamper#readme",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.26.11",
+    "typescript": "^4.0.3",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
