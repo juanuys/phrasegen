@@ -1,4 +1,5 @@
-import Vue from 'vue';
-import App from './app/App.vue';
+import Vue from 'vue'
+import App from './app/App.vue'
 
-new Vue({ render: createElement => createElement(App) }).$mount('#app');
+new Vue({ render: createElement => createElement(App) }).$mount('#app')
+

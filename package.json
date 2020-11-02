@@ -1,7 +1,7 @@
 {
-  "name": "scamper",
+  "name": "phrasegen",
   "version": "0.0.1",
-  "description": "Randomise SCAMPER in your browser.",
+  "description": "Random phrases using set parameters.",
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juanuys/scamper.git"
+    "url": "git+https://github.com/juanuys/phrasegen.git"
   },
   "keywords": [
-    "scamper",
-    "creativity"
+    "words",
+    "phrases"
   ],
   "author": "Juan Uys",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juanuys/scamper/issues"
+    "url": "https://github.com/juanuys/phrasegen/issues"
   },
-  "homepage": "https://github.com/juanuys/scamper#readme",
+  "homepage": "https://github.com/juanuys/phrasegen#readme",
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.2.0",
     "node-sass": "^4.14.1",
